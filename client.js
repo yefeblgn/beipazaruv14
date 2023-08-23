@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, Partials,ActivityType,Events } = require('dis
 const { joinVoiceChannel } = require('@discordjs/voice')
 let conf = require('./config');
 
-class  extends Client {
+class efe extends Client {
     constructor(options) {
         super({
             options,
@@ -41,4 +41,4 @@ class  extends Client {
     }
 }
 
-module.exports = {  };
+module.exports = { efe };
