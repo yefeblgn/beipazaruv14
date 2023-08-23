@@ -1,6 +1,6 @@
 module.exports = {
 
-    token: "", //Bot Tokeniniz => Bot Oluşturduktan Sonra Intentsleri Açmayı Unutma!
+    token: process.env.token, //Bot Tokeniniz => Bot Oluşturduktan Sonra Intentsleri Açmayı Unutma!
     guildID: "838788287140200508", //Kullanıcağın Sunucunun ID'si
     voiceChannelID: "1133828694255874230", // Ses Kanal ID'si
     presence: "Yeni Altyapı | by yefeblgN", //Botun Durumu
@@ -23,7 +23,7 @@ module.exports = {
 
 
     //Eğer Buraya Kadar Yaptıysan .setup Komudunu Kullanarak Botu Sunucuna Kurmaya Başla.
-    mongoURL: "", //MongoDB URL'niz
+    mongoURL: process.env.mongodb, //MongoDB URL'niz
     topArkaplan: "https://cdn.discordapp.com/attachments/946826067174375494/1106207234783981678/pexels-eberhard-grossgasteiger-1421903.jpg", //Top Komutundaki Arkaplan Resmi (URL Şeklinde Girilicek) - Eğer Hata Verirse Bilinki URL'de Resim Yoktur,Başka Bir URL Deneyin. (⚠️ GIF,APNG Uzantılı Resimleri Desteklemez)
     taskSystem: false, // Görev Sisteminin Aktif Veya Deaktif Hale Getirir - true = Aktif / false = Deaktif
 
