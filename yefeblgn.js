@@ -1,7 +1,7 @@
 const { Collection, EmbedBuilder, codeBlock,GuildMember } = require("discord.js");
 const config = require("./config")
-const { EFE } = require('./client');
-const client = global.client = new EFE();
+const { efe } = require('./client');
+const client = global.client = new efe();
 
 const { YamlDatabase,JsonDatabase } = require('five.db')
 const db = client.db = new YamlDatabase();
