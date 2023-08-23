@@ -10,7 +10,7 @@ class efe extends Client {
             partials: Object.keys(Partials),
             presence: {
                 activities: [{
-                  name: conf && conf.presence.length > 0 ? conf.presence : " Was Here",
+                  name: conf && conf.presence.length > 0 ? conf.presence : " by yefeblgN",
                   type: ActivityType.Streaming,
                   url:"https://www.twitch.tv/yefeblgn"
                 }],
